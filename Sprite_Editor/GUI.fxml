@@ -1,0 +1,155 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+
+<AnchorPane prefHeight = "612.0" prefWidth = "612.0" style = "-fx-background-color: #414A4C" fx:controller = "Sprite_Editor.Control" xmlns:fx = "http://javafx.com/fxml/1" xmlns = "http://javafx.com/javafx/8.0.121">
+    <GridPane gridLinesVisible = "true" layoutX = "50" layoutY = "50.0" prefHeight = "512.0" prefWidth = "512.0" style = "-fx-background-color: #FFFFFF" AnchorPane.leftAnchor = "50.0" AnchorPane.topAnchor = "50.0">
+        <rowConstraints>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+            <RowConstraints minHeight = "8.0" prefHeight = "8.0" maxHeight = "8.0" vgrow = "ALWAYS"/>
+        </rowConstraints>
+        <columnConstraints>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+            <ColumnConstraints minWidth = "8.0" prefWidth = "8.0" maxWidth = "8.0" hgrow = "ALWAYS"/>
+        </columnConstraints>
+    </GridPane>
+    <ColorPicker fx:id = "colorPicker" layoutX = "50.0" layoutY = "15.0"/>
+    <Button layoutX = "250.0" layoutY = "15.0" mnemonicParsing = "false" onMouseClicked = "#saveSprite" text = "Save"/>
+    <Button layoutX = "350.0" layoutY = "15.0" mnemonicParsing = "false" onMouseClicked = "#loadSprite" text = "Load"/>
+    <Button layoutX = "450.0" layoutY = "15.0" mnemonicParsing = "false" onMouseClicked = "#cleanOutCanvas" text = "Clean"/>
+    <Canvas fx:id = "Canvas" AnchorPane.leftAnchor = "50.0" AnchorPane.topAnchor = "50.0" height = "512.0" width = "512.0" onMouseClicked = "#paintOnCanvas"/>
+    <Button layoutX = "50.0" layoutY = "577.0" mnemonicParsing = "false" onMouseClicked = "#grid64x64" text = "Grid 64x64"/>
+    <Button layoutX = "200.0" layoutY = "577.0" mnemonicParsing = "false" onMouseClicked = "#grid32x32" text = "Grid 32x32"/>
+    <Button layoutX = "350.0" layoutY = "577.0" mnemonicParsing = "false" onMouseClicked = "#grid16x16" text = "Grid 16x16"/>
+    <Button layoutX = "500.0" layoutY = "577.0" mnemonicParsing = "false" onMouseClicked = "#grid8x8" text = "Grid 8x8"/>
+</AnchorPane>
